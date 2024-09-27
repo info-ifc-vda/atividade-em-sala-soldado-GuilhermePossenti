@@ -32,10 +32,10 @@ public class soldado {
 
     public void atacar(Inimigo inimigo, int dano) { 
         if (inimigo != null) {
-            inimigo.receiveDamage(dano);
-            System.out.println("You attacked the enemy for " + dano + " damage!");
+            inimigo.receberDano(dano);
+            System.out.println("voce atacou o inimigo " + dano + " dano!");
         } else {
-            System.out.println("No enemy to attack!");
+            System.out.println("não atacou o inimigo!");
         }
     }
 
